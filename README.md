@@ -29,7 +29,7 @@ To HccBench-R (the receiver):
 -----------------------------------
 1) Open Receiverconfig.txt in your notepad or so:
 2) Edit the port you expect the packets to come from
-3) Edit the maximum size of the packets you want to receive
+3) Edit the maximum size of the packets you expect to receive
 4) Run Receiver.exe in a CMD (always before Sender.exe)
 5) Start Sender.exe
 6) Wait until Sender.exe is finished --> Usually, Receiver will shut down - if not, kill it with ctrl-c or so
