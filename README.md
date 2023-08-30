@@ -58,12 +58,11 @@ Tip: Also here -- Save your output files; otherwise, the data will be overwritte
 
 # Stuff you can do with it for Analysis
 
-Very basic metrics:
+Basic metrics using file comparison tools, Excel or any statistics tool:
+
 1) Total Packages Sent: Evaluate the number of records in the sender file.
 2) Total Packages Received: Evaluate the number of records in the receiver file.
 3) Using a file comparison tool, compare receiveroutput.txt to senderoutput.txt to check for out-of-order packets and duplicate packets.
-
-Use Excel or any statistics tool:
 4) Packets Arrived Unchanged: This is the number of packets for which the sender file's packet content matches the receiver file's packet content.
 5) Packets arrived modified: This is the number of packets for which the packet content in the source file does not match the packet content in the destination file.
 6) Transit time of each packet: This is the difference in timestamps between the receiver and the sender for each packet.
@@ -71,14 +70,13 @@ Use Excel or any statistics tool:
 8) Standard Deviation of Transit Time: This is the standard deviation of the transit times for all packets.
 9) Packet Loss: The number of packets sent but not received.
 10) Throughput: This is the total number of bits received divided by the total time to receive them.
-Error rate: This is the number of packets received with errors divided by the total number of packets received.
-
-11) Bandwidth: If you have done enough tests, including unsuccessful network tests with very high packets and very short intervals, you can estimate the maximum data transfer rate over the network. It can be calculated as the total number of bits sent or received divided by the total time.
-
-12) Runtime distribution: Create a histogram of the transit times of all packets to visualize the distribution.
-13) Packet Size Distribution: Analyze the distribution of packet sizes at both the sender and receiver side.
-14) Create a time series plot of all packet transit times to identify any current trends or periodic patterns. 
-15) Jitter analysis: Jitter refers to the variation in latency across a network. In other words, it is the variation in the time it takes packets to get from one point to another.
+11) Error rate: This is the number of packets received with errors divided by the total number of packets received.
+12) Bandwidth: If you have done enough tests, including unsuccessful network tests with very high packets and very short intervals, you can estimate the maximum data transfer rate over the network. It can be calculated as the total number of bits sent or received  
+    divided by the total time.
+13) Runtime distribution: Create a histogram of the transit times of all packets to visualize the distribution.
+14) Packet Size Distribution: Analyze the distribution of packet sizes at both the sender and receiver sides.
+15) Create a time series plot of all packet transit times to identify any current trends or periodic patterns.
+16) Jitter analysis: Jitter refers to the variation in latency across a network. In other words, it is the variation in the time it takes packets to get from one point to another.
 
 # Stuff you cannot do with it for Analysis
 
