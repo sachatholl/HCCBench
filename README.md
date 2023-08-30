@@ -80,7 +80,7 @@ Comparing "senderouput.txt" against "receiveroutput.txt" using any file comparis
 
 # Stuff you cannot do with it for Analysis
 
- At least not without further development of the two proggis:
+ At least not in the current version of the two proggis:
 1) Round Trip Time (RTT)
 2) Utilization: This is the percentage of time the network is used to transmit packets. It can be calculated as the total time taken to transmit all packets divided by the total time period.
 3) Retransmissions:  
