@@ -9,7 +9,7 @@
 ░░░░░   ░░░░░  ░░░░░░   ░░░░░░  ░░░░░░░░░░░   ░░░░░░  ░░░░ ░░░░░  ░░░░░░  ░░░░ ░░░░░
  ~~~
                                                                                                                                                                          
-# Yet another proggi to test your network applications on the fly - By Sash Electrique [Sacha Tholl].
+# Yet another proggi to test your network applications on the fly
 
 HccBench provides a simple way to transmit and receive data packets over the network in scenarios such as network tests to analyze data transmission and/or monitoring quality and robustness. Therefore, it consists of 2 programs, which are presented below:
 
