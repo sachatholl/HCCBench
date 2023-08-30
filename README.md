@@ -62,7 +62,7 @@ Comparing "senderouput.txt" against "receiveroutput.txt" using any file comparis
 
 1) Total Packages Sent: Evaluate the number of records in the sender file.
 2) Total Packages Received: Evaluate the number of records in the receiver file.
-3) Using a file comparison tool, compare receiveroutput.txt to senderoutput.txt to check for out-of-order packets and duplicate packets.
+3) Using a file comparison tool, compare receiveroutput.txt to senderoutput.txt to check for out-of-order, duplicate, truncated, or corrupted packets.
 4) Packets Arrived Unchanged: This is the number of packets for which the sender file's packet content matches the receiver file's packet content.
 5) Packets arrived modified: This is the number of packets for which the packet content in the source file does not match the packet content in the destination file.
 6) Transit time of each packet: This is the difference in timestamps between the receiver and the sender for each packet.
