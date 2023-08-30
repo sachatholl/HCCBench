@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe" all
