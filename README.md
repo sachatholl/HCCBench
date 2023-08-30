@@ -58,7 +58,7 @@ Tip: Also here -- Save your output files; otherwise, the data will be overwritte
 
 # Stuff you can do with it for Analysis
 
-Basic metrics using file comparison tools, Excel or any statistics tool:
+Comparing "senderouput.txt" against "receiveroutput.txt" using any file comparison tools and doing statistics using Excel or any statistics tool:
 
 1) Total Packages Sent: Evaluate the number of records in the sender file.
 2) Total Packages Received: Evaluate the number of records in the receiver file.
